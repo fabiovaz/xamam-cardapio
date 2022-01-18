@@ -1,7 +1,7 @@
 <template>
  <main>
   <object data="./cardapio_primavera.pdf" type="application/pdf">
-    <div>No online PDF viewer installed</div>
+    <iframe src="./cardapio_primavera.pdf"></iframe>
   </object>
  </main>
 </template>
