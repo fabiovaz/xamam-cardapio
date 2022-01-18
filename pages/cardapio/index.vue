@@ -1,6 +1,8 @@
 <template>
  <main>
-   <embed src="/cardapio_primavera.pdf" />
+  <object data="./cardapio_primavera.pdf" type="application/pdf">
+    <div>No online PDF viewer installed</div>
+  </object>
  </main>
 </template>
 <script>
@@ -19,7 +21,7 @@ export default {
 </script>
 
 <style>
-embed {
+object {
   width: 100vw;
   height: 100vh;
 }
