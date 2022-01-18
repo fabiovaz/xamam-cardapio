@@ -1,9 +1,10 @@
+<template>
+ <main />
+</template>
 <script>
 export default {
-    middleware: [
-        function({ redirect }) {
-            redirect('/static/cardapio_primavera.pdf');
-        },
-    ],
-};
+    mounted() {
+    window.location.href='./cardapio_primavera.pdf'
+  }
+}
 </script>
