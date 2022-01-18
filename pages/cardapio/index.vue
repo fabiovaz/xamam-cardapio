@@ -1,7 +1,7 @@
 <template>
  <main>
   <object data="./cardapio_primavera.pdf" type="application/pdf">
-    <iframe src="./cardapio_primavera.pdf"></iframe>
+    <iframe src="https://docs.google.com/viewer?url=https://xamam-rc.com.br/cardapio_primavera.pdf&embedded=true"></iframe>
   </object>
  </main>
 </template>
